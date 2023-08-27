@@ -1,0 +1,628 @@
+/* clearfix */
+.clearfix:after,
+.incont .inlink:after,
+.incont .share:after,
+.head-banner .inputlist li:after,
+.module-preacher ul:after {
+  display: table;
+  clear: both;
+  content: " ";
+}
+/*提示信息样式*/
+#warning {
+  position: fixed;
+  top: -40px;
+  left: 50%;
+  z-index: 60000;
+  opacity: 0;
+  padding: 4px 20px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+.waring-success {
+  background: #35b558;
+}
+.waring-failure {
+  background: #ff5c00;
+}
+.waring-sub {
+  background: #2d85ca;
+}
+/* button */
+.btn-def {
+  height: 50px;
+  padding: 0 62px;
+  font-size: 20px;
+  -webkit-box-shadow: 2px 2px 1px rgba(151, 14, 45, 0.3);
+  box-shadow: 2px 2px 1px rgba(151, 14, 45, 0.3);
+}
+a.btn-def {
+  background: #ebd800;
+  border-color: #ebd800;
+  color: #000000;
+}
+a.btn-def:hover {
+  background: #ebeb00;
+  border-color: #ebeb00;
+  color: #000000;
+}
+a.btn-def:active {
+  background: #ebeb00;
+  border-color: #ebeb00;
+  color: #000000;
+}
+a.btn-def,
+span.btn-def,
+label.btn-def {
+  line-height: 48px;
+}
+/* img */
+.invite {
+  width: 100%;
+  height: 1080px;
+  background: url("img/friend/invitebg.jpg") center top no-repeat;
+}
+.invite > .wrap {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 190px;
+}
+.inhead {
+  width: 670px;
+  margin: 0 auto;
+  border-top: 1px solid #fff;
+  padding: 20px 0;
+}
+.inhead .caption {
+  font-size: 50px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.inhead p {
+  color: #fff;
+}
+.inhead .intro {
+  font-size: 19px;
+  line-height: 1.5em;
+  text-align: center;
+}
+.inhead .border-b {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+}
+.inhead .date {
+  font-size: 15px;
+  text-align: right;
+  line-height: 35px;
+}
+.incont {
+  padding-bottom: 45px;
+}
+.incont .nologin {
+  padding-top: 50px;
+}
+.incont .btn-inv {
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+  height: 44px;
+  line-height: 44px;
+  background-color: #d24848;
+  border: 1px solid #b93e3e;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+.incont .inreg {
+  padding-top: 25px;
+  padding-bottom: 60px;
+  font-size: 19px;
+  color: #222;
+  text-align: center;
+}
+.incont .inreg a {
+  color: #d24848;
+}
+.incont .tip {
+  font-size: 20px;
+  text-align: center;
+}
+.incont .login {
+  padding-bottom: 35px;
+}
+.incont .inlink {
+  width: 800px;
+  margin: 32px auto 20px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #444;
+  font-size: 16px;
+}
+.incont .inlink label,
+.incont .inlink input,
+.incont .inlink a {
+  float: left;
+}
+.incont .inlink label,
+.incont .inlink input {
+  margin-right: 15px;
+}
+.incont .inlink input {
+  width: 540px;
+  height: 35px;
+  background-color: #fff;
+  border: 1px solid #d2d2d2;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.incont .inlink .copy {
+  width: 110px;
+  height: 35px;
+  background-color: #52b0d3;
+  text-align: center;
+  color: #fff;
+}
+.incont .share {
+  width: 901px;
+  margin: 0 auto;
+  height: 89px;
+  background: url("img/friend/sharebg.png") 0 0 no-repeat;
+  background-size: 901px 89px;
+  padding: 30px 15px;
+}
+.incont .share a {
+  float: left;
+  width: 280px;
+  height: 44px;
+  line-height: 44px;
+  color: #fff;
+  vertical-align: top;
+  margin-right: 15px;
+}
+.incont .share a:last-child {
+  margin-right: 0;
+}
+.incont .share a:hover {
+  color: #fff;
+}
+.incont .share .qzone {
+  background: url("img/friend/qzone.png") no-repeat;
+  background-size: 100% 100%;
+}
+.incont .share .tsina {
+  background: url("img/friend/tsina.png") no-repeat;
+  background-size: 100% 100%;
+}
+.incont .share .qq {
+  background: url("img/friend/qq.png") no-repeat;
+  background-size: 100% 100%;
+}
+.infoot {
+  margin-top: 60px;
+}
+.infoot p {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+body {
+  background-color: #52b0d3 !important;
+}
+.head-banner {
+  position: relative;
+  height: 590px;
+  background: url(img/friend/head_banner_01.jpg) no-repeat center 0, url(img/friend/head_banner_02.jpg) no-repeat center 295px;
+}
+.head-banner .wrap {
+  position: relative;
+  z-index: 1;
+}
+.head-banner .joinin {
+  position: absolute;
+  top: 312px;
+  left: 80px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #fff;
+}
+.head-banner .date {
+  position: absolute;
+  top: 490px;
+  left: 290px;
+  font-size: 18px;
+  color: #fff;
+}
+.head-banner .form {
+  position: absolute;
+  top: 169px;
+  right: 0;
+  width: 328px;
+  height: 396px;
+  background: url("img/friend/formbg.png") 0 0 no-repeat;
+  background-size: 328px 396px;
+  padding: 54px 33px 23px;
+}
+.head-banner .form > h2 {
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.5em;
+  text-align: left;
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+.head-banner .form > h2 span {
+  color: #fff77b;
+}
+.head-banner .inputlist li {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.head-banner .inputlist .err {
+  position: absolute;
+  left: 80px;
+  top: 25px;
+  color: #fff000;
+  font-size: 12px;
+}
+.head-banner .inputlist label,
+.head-banner .inputlist input {
+  float: left;
+}
+.head-banner .inputlist label {
+  width: 70px;
+  font-size: 13px;
+  color: #fff;
+  text-align: left;
+}
+.head-banner .inputlist label i {
+  color: #ca4759;
+  padding-right: 10px;
+}
+.head-banner .inputlist input {
+  width: 190px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 13px;
+}
+.head-banner .inputlist input.w84 {
+  width: 84px;
+  margin-right: 9px;
+}
+.head-banner .inputlist input.gray {
+  background-color: #f5f5f5;
+}
+.head-banner .inputlist button {
+  float: left;
+  width: 97px;
+  height: 30px;
+  background-color: #fff;
+  border: 0 none;
+  color: #35b558;
+  font-size: 13px;
+}
+.head-banner .inputlist .autocode {
+  height: 30px;
+  width: 60px;
+  float: left;
+}
+.head-banner .inputlist .autocode img {
+  display: block;
+  height: 30px;
+  width: 60px;
+  border: none;
+}
+.head-banner .get-vip {
+  display: block;
+  width: 262px;
+  height: 45px;
+  background-color: #fff000;
+  color: #444;
+  text-align: center;
+  line-height: 45px;
+  font-size: 22px;
+}
+.module-lessons {
+  height: 670px;
+  background: #ffffff url(img/friend/bg_line.jpg) no-repeat center bottom;
+}
+.module-lessons .wrap {
+  height: 670px;
+  background: url(img/friend/lessons.jpg) no-repeat center 0 / 1200px 543px;
+}
+.module-preacher {
+  height: 746px;
+}
+.module-preacher h2,
+.module-preacher h3 {
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 10px;
+}
+.module-preacher h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.module-preacher ul {
+  margin: 0 auto;
+}
+.module-preacher li {
+  float: left;
+}
+.module-preacher a,
+.module-preacher a:hover,
+.module-preacher span,
+.module-preacher strong {
+  display: block;
+}
+.module-preacher span {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+.module-preacher strong {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+.module-preacher .teacher {
+  width: 904px;
+  height: 414px;
+}
+.module-preacher .teacher li {
+  width: 163px;
+  margin-right: 84px;
+}
+.module-preacher .teacher li:last-child {
+  margin-right: 0;
+}
+.module-preacher .teacher a,
+.module-preacher .teacher a:hover {
+  width: 163px;
+  height: 212px;
+  margin-bottom: 15px;
+}
+.module-preacher .teacher .ime {
+  background: url("img/friend/ime.png") 0 0 no-repeat;
+  background-size: 326px 212px;
+}
+.module-preacher .teacher .ime:hover {
+  background: url("img/friend/ime.png") -164px 0 no-repeat;
+  background-size: 326px 212px;
+}
+.module-preacher .teacher .ijason {
+  background: url("img/friend/Ijason.png") 0 0 no-repeat;
+  background-size: 326px 212px;
+}
+.module-preacher .teacher .ijason:hover {
+  background: url("img/friend/Ijason.png") -164px 0 no-repeat;
+  background-size: 326px 212px;
+}
+.module-preacher .teacher .leo-li {
+  background: url("img/friend/LeoLi.png") 0 0 no-repeat;
+  background-size: 326px 212px;
+}
+.module-preacher .teacher .leo-li:hover {
+  background: url("img/friend/LeoLi.png") -164px 0 no-repeat;
+  background-size: 326px 212px;
+}
+.module-preacher .teacher .loic {
+  background: url("img/friend/Loic.png") 0 0 no-repeat;
+  background-size: 326px 212px;
+}
+.module-preacher .teacher .loic:hover {
+  background: url("img/friend/Loic.png") -164px 0 no-repeat;
+  background-size: 326px 212px;
+}
+.module-preacher .teacher p {
+  width: 100%;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5em;
+  margin-top: 20px;
+}
+.module-preacher .std {
+  width: 814px;
+  height: 203px;
+}
+.module-preacher .std a {
+  width: 102px;
+  height: 102px;
+  margin: 0 auto;
+  background: url("img/friend/xueyuan.png") no-repeat;
+  background-size: 408px 102px;
+}
+.module-preacher .std .std01 {
+  background-position: 0 0;
+}
+.module-preacher .std .std02 {
+  background-position: -103px 0;
+}
+.module-preacher .std .std03 {
+  background-position: -205px 0;
+}
+.module-preacher .std .std04 {
+  background-position: -307px 0;
+}
+.module-preacher .std li {
+  width: 170px;
+  margin-right: 44px;
+  text-align: center;
+}
+.module-preacher .std li:last-child {
+  margin-right: 0;
+}
+.module-preacher .std p {
+  font-size: 12px;
+  color: #fff;
+  line-height: 1.5em;
+}
+.module-preacher .std span {
+  padding: 5px 0;
+}
+.module-preacher p {
+  display: none;
+}
+.module-learn {
+  height: 550px;
+  background-color: #ebebeb;
+}
+.module-learn .wrap {
+  width: 1000px;
+  height: 550px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 88px 0;
+  background: url(img/friend/computer.png) no-repeat center 160px / 800px 340px;
+}
+.module-learn h2 {
+  color: #373737;
+  font-size: 31px;
+  font-weight: bold;
+  text-align: center;
+}
+.module-join {
+  height: 526px;
+  padding-top: 44px;
+  background: url(img/friend/desk.png) no-repeat center 210px / 1015px 266px;
+}
+.module-join h2 {
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  font-weight: normal;
+}
+.module-join .link {
+  display: block;
+  width: 456px;
+  height: 51px;
+  margin: 44px auto;
+  background: url("img/friend/link.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+.in-pop {
+  position: fixed;
+  z-index: 999;
+  top: 100px;
+  left: 50%;
+  width: 728px;
+  height: 455px;
+  background: url("img/friend/pop2.png") no-repeat;
+  background-size: 728px 455px;
+}
+.in-pop .share-link {
+  position: absolute;
+  top: 232px;
+  left: 138px;
+  width: 549px;
+}
+.in-pop .input {
+  position: absolute;
+  left: 3px;
+  width: 427px;
+  height: 36px;
+  border: none;
+  line-height: 36px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.in-pop .copy-link {
+  position: absolute;
+  right: 0;
+  display: block;
+  width: 110px;
+  height: 39px;
+}
+.in-pop .close {
+  position: absolute;
+  top: 20px;
+  right: 33px;
+  display: block;
+  width: 35px;
+  height: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+}
+.in-pop .text-hide {
+  position: absolute;
+  bottom: 10px;
+  left: 23px;
+  display: block;
+  width: 360px;
+  height: 54px;
+}
+.popshare {
+  width: 638px;
+  height: 44px;
+  position: absolute;
+  left: 51px;
+  bottom: 117px;
+}
+.popshare .qzone,
+.popshare .qq {
+  position: absolute;
+  display: block;
+  width: 310px;
+  height: 44px;
+}
+.popshare .qzone {
+  left: 329px;
+}
+.login-pop {
+  position: fixed;
+  z-index: 999;
+  top: 100px;
+  left: 50%;
+  width: 346px;
+  height: 385px;
+  background: url("img/friend/loginbg.png") no-repeat;
+  background-size: 346px 385px;
+}
+.login-pop .close {
+  position: absolute;
+  top: 38px;
+  right: 0;
+  display: block;
+  width: 35px;
+  height: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+}
+.login-pop .invite-btn {
+  position: absolute;
+  bottom: 55px;
+  left: 59px;
+  width: 226px;
+  height: 44px;
+}
+.invite-over {
+  width: 100%;
+  height: 1080px;
+  background: url("img/friend/overbg.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  padding-top: 420px;
+}
+.invite-over .wrap {
+  font-size: 30px;
+  color: #fff;
+  line-height: 1.5em;
+}
